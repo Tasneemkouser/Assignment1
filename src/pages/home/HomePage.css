@@ -1,0 +1,20 @@
+.section-intro {
+  background: #DDF1FB
+} 
+
+.section-intro header > a {
+  text-decoration: none;
+  color: #4478AF;
+}
+
+.download-info {
+  position: relative;
+}
+
+.download-info > button {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateY(-50%) translateX(-50%);
+  z-index: 1;
+}
